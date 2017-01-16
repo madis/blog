@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rails app from zero to production in 1 hour [Part 1]
+category: Tech
 tags:
   - rails
   - rubocop
@@ -9,7 +10,10 @@ tags:
   - rapid prototyping
 ---
 
-New rails applications can be created quickly with `rails new [name]` when the defaults suit you. To go from empty application with couple scaffolds to production-ready application with your own database, continuous integration, continuous deployments, monitoring etc. will takes time. I collected together steps that I usually do to formalise the process and to make it easier.
+New rails applications can be created quickly with `rails new [name]` when the defaults suit you. To go from empty application with couple scaffolds to production-ready application with your own database, continuous integration, continuous deployments, monitoring etc.
+
+
+will takes time. I collected together steps that I usually do to formalise the process and to make it easier.
 
 First part goes over the main steps of how I like to approach quickly getting rails applications up and running. Second part deals with monitoring the application.
 

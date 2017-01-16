@@ -1,6 +1,8 @@
 # Site settings
 title: Madis Nõmme
-description: 'Hackerman extraordinaire specializing on backend development (Ruby, Clojure) and communications (WebRTC, Twilio). Writing on coding, electronics and more'
+description:
+  - I help data driven small online businesses increase profits by using information from external sources more efficiently.
+  - Unlike many other software consultants I can deliver a solution taylored specifically to your case faster because of my experience.
 url: 'https://blog.mad.is'
 baseurl: '/'
 google_analytics: 'UA-53654616-1'
@@ -9,7 +11,7 @@ disqus_shortname: 'blogmadis'
 author:
   name: 'Madis Nõmme'
   email: contact@mad.is
-  twitter_username: madis_nomme
+  twitter_username: madisIT
   github_username:  madis
   linkedin_username:  madisnomme
 
@@ -33,6 +35,13 @@ kramdown:
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
+  span:
+    line_numbers: false
+  block:
+    line_numbers: true
+    start_line: 1
 
-gems: ['jekyll-paginate']
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

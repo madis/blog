@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Blocking outgoing traffic to ports
+categories: Business
+tags:
+  - networking
+  - firewall
+  - ports
 ---
 
 Controlling network traffic by using firewalls can have different benefits. There are also scenarios where restrictive rules just impede the users without giving any security benefits. This article describes in layman's terms using visual examples, the workings and results of blocking outoing traffic to specific ports.
