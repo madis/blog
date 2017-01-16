@@ -1,6 +1,8 @@
 # Site settings
 title: Madis Nõmme
-description: 'Hackerman extraordinaire specializing on backend development (Ruby, Clojure) and communications (WebRTC, Twilio). Writing on coding, electronics and more'
+description: 'I help data driven small online businesses increase profits by using information from external sources more efficiently.
+Unlike many other software consultants I can deliver a solution taylored specifically to your case faster because of my experience.
+'
 url: 'https://blog.mad.is'
 baseurl: '/'
 google_analytics: 'UA-53654616-1'
