@@ -8,8 +8,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
-          {% if page.title %}
-            <h2 class="title">{{ page.title }}</h2>
+          {% if page.title == true and page.no_positioning == true %}
+            <h1 class="title">{{ page.title }}</h1>
           {% else %}
             <h3 class="title">{{ site.positioning[0] }}</h3>
             <h4>{{ site.positioning[1] }}</h4>

@@ -27,7 +27,12 @@ defaults:
       path: ''
       type: 'posts'
     values:
-        layout: 'post'
+      layout: 'post'
+  -
+    scope:
+      path: 'categories'
+    values:
+      title: 'My writings'
 
 # Build settings
 destination: _site
