@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Rails 5: What to test where?"
+category: Tech
 tags:
   - rails 5
   - rspec

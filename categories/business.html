@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% capture categories_menu %}
+
+<ul class="nav nav-pills nav-pills-primary">
+  <li><a href="/categories/all">All</a></li>
+  <li><a href="/categories/tech">Tech</a></li>
+  <li class="active"><a href="/categories/business">Business</a></li>
+</ul>
+{% endcapture %}
+
+{% include_relative posts_list.html param=site.categories.Business %}
+

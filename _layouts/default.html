@@ -1,16 +1,29 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
+<!doctype html>
+<html lang="en">
+{% include head.html %}
 
-  <body>
-    {% include header.html %}
-
-    <div class="content-wrapper">
-      <div class="content-wrapper__inner">
-        {{ content }}
+<body class="blog-posts">
+  {% include header.html %}
+  <div class="page-header header-filter header-small" data-parallax="active" style="background-image: url('/images/bg-laptop-on-desk.jpeg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          {% if page.title == true and page.no_positioning == true %}
+            <h1 class="title">{{ page.title }}</h1>
+          {% else %}
+            <h3 class="title">{{ site.positioning[0] }}</h3>
+            <h4>{{ site.positioning[1] }}</h4>
+          {% endif %}
+        </div>
       </div>
-
-      {% include footer.html %}
     </div>
-  </body>
+  </div>
+
+  <div class="main main-raised">
+      {{ content }}
+      {% include email_signup.html %}
+  </div>
+  {% include footer.html %}
+</body>
+{% include below_fold.html %}
 </html>

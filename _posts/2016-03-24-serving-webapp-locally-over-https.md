@@ -1,8 +1,10 @@
 ---
 title:  "Serving web application locally over https"
 date:   2016-01-08 15:04:23
-categories: [Development]
-tags: [https web]
+category: Tech
+tags:
+  - https
+  - local development
 ---
 
 As the browser vendors are moving towards *https*, it is useful to keep the local development environment on https too. Here are couple simple ways for doing it.

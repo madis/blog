@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Running Elasticsearch in docker container
+category: Tech
+tags:
+  - elasticsearch
+  - docker
+  - development
 ---
 
 Running Elasticsearch in docker container should be straightforward, Following the official instructions, I could not establish. Here is how I solved the issue.

@@ -1,19 +1,25 @@
 # Site settings
-title: Madis Nõmme
-description: 'I help data driven small online businesses increase profits by using information from external sources more efficiently.
-Unlike many other software consultants I can deliver a solution taylored specifically to your case faster because of my experience.
-'
-url: 'https://blog.mad.is'
+title: Madis Nõmme's web page
+description: I help data driven small online businesses increase profits by using external data sources combined with machine learning
+positioning:
+  - I help data driven small online businesses increase profits by using information from external sources more efficiently.
+  - Unlike many other software consultants I can deliver a solution taylored specifically to your case faster because of my experience.
+url: 'https://mad.is'
 baseurl: '/'
 google_analytics: 'UA-53654616-1'
 disqus_shortname: 'blogmadis'
+social:
+  name: Madis Nõmme
+  links:
+    - https://github.com/madis
+    - https://www.linkedin.com/in/madisnomme
+    - https://twitter.com/MadisIT
 
 author:
   name: 'Madis Nõmme'
   email: contact@mad.is
-  twitter_username: madis_nomme
-  github_username:  madis
-  linkedin_username:  madisnomme
+  twitter: madisIT
+  picture: /images/profile.png
 
 defaults:
   -
@@ -21,7 +27,12 @@ defaults:
       path: ''
       type: 'posts'
     values:
-        layout: 'post'
+      layout: 'post'
+  -
+    scope:
+      path: 'categories'
+    values:
+      title: 'My writings'
 
 # Build settings
 destination: _site
@@ -35,6 +46,14 @@ kramdown:
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
+  span:
+    line_numbers: false
+  block:
+    line_numbers: true
+    start_line: 1
 
-gems: ['jekyll-paginate']
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-seo-tag
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

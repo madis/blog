@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Rails app from zero to production in 1 hour [Part 2]
+category: Tech
 tags:
   - rails
   - monitoring rails app
   - capistrano slack integration
   - securing rails app
   - https certificates
+
 ---
 
 [Part 1](2017/01/new-rails-app-from-zero-to-production/) described how I create and deploy new Rails applications quickly with preconfigured preferences. In the this part I will describe how to set up https for rails production with free ssl certificates, integrate rails app with Slack and how to put in place monitoring with Sentry.
