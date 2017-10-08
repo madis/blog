@@ -4,15 +4,19 @@
 
 <body class="blog-posts">
   {% include header.html %}
-  <div class="page-header header-filter header-small" data-parallax="active" style="background-image: url('/images/bg-laptop-on-desk.jpeg');">
+  {% if page.categories %}
+    <div class="page-header header-filter header-small" data-parallax="active" style="background-image: url('/assets/{{page.slug}}/cover.jpg');">
+  {% else %}
+    <div class="page-header header-filter header-small" data-parallax="active" style="background-image: url('/images/bg-laptop-on-desk.jpeg');">
+  {% endif %}
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
-          {% if page.title == true and page.no_positioning == true %}
-            <h1 class="title">{{ page.title }}</h1>
-          {% else %}
+          {% if page.positioning %}
             <h3 class="title">{{ site.positioning[0] }}</h3>
             <h4>{{ site.positioning[1] }}</h4>
+          {% else %}
+            <h2 class="title">{{ page.title }}</h1>
           {% endif %}
         </div>
       </div>
@@ -20,8 +24,8 @@
   </div>
 
   <div class="main main-raised">
-      {{ content }}
-      {% include email_signup.html %}
+    {{ content }}
+    {% include email_signup.html %}
   </div>
   {% include footer.html %}
 </body>

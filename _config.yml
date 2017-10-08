@@ -28,6 +28,7 @@ defaults:
       type: 'posts'
     values:
       layout: 'post'
+      positioning: false
   -
     scope:
       path: 'categories'
