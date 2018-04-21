@@ -1,0 +1,27 @@
+---
+layout: default
+title: Books I have read and recommend
+---
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="row">
+      {% for category in site.data.books.categories %}
+        <h3>{{ category | capitalize }}</h3>
+        <ul class="books">
+          {% for yearly in site.data.books[category] %}
+            <h4>{{ yearly.year }}</h4>
+            {% for book in yearly.books %}
+              <a href="{{ book.link }}">
+                <li>
+                  <img class="book-thumb" src="/assets/books/{{ yearly.year }}/{{ book.cover }}-thumb.jpg" alt="{{ book.title }}"/>
+                  <span>{{ book.title }}</span> by
+                  <span>{{ book.authors }}</span>
+                </li>
+              </a>
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </div>
+</div>

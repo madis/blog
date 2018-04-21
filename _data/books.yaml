@@ -1,0 +1,19 @@
+categories:
+  - technical
+  - literature
+literature:
+  - year: 2018
+    books:
+      - title: Red Mars
+        authors: Kim Stanley Robinson
+        cover: red-mars
+        link: https://www.goodreads.com/book/show/77507.Red_Mars
+
+technical:
+  - year: 2018
+    books:
+      - title: Python For Data Analysis 2nd edition
+        authors: William McKinney
+        cover: python-data-analysis
+        link: http://shop.oreilly.com/product/0636920023784.do
+
