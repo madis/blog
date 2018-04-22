@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Books I have read and recommend
+title: Some books I have read and liked
 ---
 <div class="row">
   <div class="col-md-8 col-md-offset-2">
@@ -9,16 +9,24 @@ title: Books I have read and recommend
         <h3>{{ category | capitalize }}</h3>
         <ul class="books">
           {% for yearly in site.data.books[category] %}
-            <h4>{{ yearly.year }}</h4>
-            {% for book in yearly.books %}
-              <a href="{{ book.link }}">
-                <li>
-                  <img class="book-thumb" src="/assets/books/{{ yearly.year }}/{{ book.cover }}-thumb.jpg" alt="{{ book.title }}"/>
-                  <span>{{ book.title }}</span> by
-                  <span>{{ book.authors }}</span>
-                </li>
-              </a>
-            {% endfor %}
+            <div class="row">
+              <p class="col-md-12">
+                <h4>{{ yearly.year }}</h4>
+              </p>
+            </div>
+            <div class="row">
+              {% for book in yearly.books %}
+                <div class="col-md-3">
+                  <a href="{{ book.link }}">
+                    <li>
+                      <img class="book-thumb" src="/assets/books/{{ yearly.year }}/{{ book.cover }}" alt="{{ book.title }}"/>
+                      <span>{{ book.title }}</span> by
+                      <span>{{ book.authors }}</span>
+                    </li>
+                  </a>
+                </div>
+              {% endfor %}
+            </div>
           {% endfor %}
         </ul>
       {% endfor %}

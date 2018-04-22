@@ -1,19 +1,74 @@
 categories:
   - technical
+  - business
   - literature
+
 literature:
+  - year: 2017
+    books:
+      - title: Mort
+        authors: Terry Pratchett
+        cover: mort1.jpg
+        link: https://www.terrypratchettbooks.com/book/mort/
+      - title: Small Gods
+        authors: Terry Pratchett
+        cover: small-gods-Web-cover.jpg
+        link: https://www.terrypratchettbooks.com/book/small-gods-a-discworld-graphic-novel/
   - year: 2018
     books:
       - title: Red Mars
         authors: Kim Stanley Robinson
-        cover: red-mars
+        cover: red-mars-thumb.jpg
         link: https://www.goodreads.com/book/show/77507.Red_Mars
+
+business:
+  - year: 2017
+    titles:
+      - A Short History of Nearly Everything (Bill Bryson)
+      - Out of Your Mind, Essential Lectures (Alan Watts)
+      - The Giants of Philosophy (Thomas C. Brickhouse, others)
+      - The 10x Rule (Grant Cardone)
+      - Be Obsesive or Be Average (Grant Cardone)
+      - Solving the Procrastination Puzzle (Timothy A. Pychyl)
+      - You Are a Badass (Jen Sincero)
+      - The Five Dysfunctions of a Team (Patrick Lencioni)
+      - Outliers (Malcolm Gladwell)
+      - Awaken The Giant Within (Tony Robbins)
+      - The Power Of Now (Eckhart Tolle)
+      - The 4-Hour Work Week (Timothy Ferriss)
+      - How to Win Friends and Influence People (Dale Carnegie)
+      - Think and Grow Rich (Napoleon Hill)
+    books:
+      - title: Elon Musk
+        authors: Ashlee Vance
+        cover: elon-musk.jpg
+        link: https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X
+      - title: The Positioning Manual
+        authors: Philip Morgan
+        cover: TPM-Cover-v1-variation1.001-v1.8.png
+        link: https://philipmorganconsulting.com/the-positioning-manual-for-technical-firms/
+      - title: The Power Of Habit
+        authors: Charles Duhigg
+        cover: power-of-habit.jpg
+        link: http://charlesduhigg.com/books/the-power-of-habit/
+      - title: Leaders Eat Last
+        authors: Simon Sinek
+        cover: leaders-eat-last.jpg
+        link: https://www.amazon.com/Leaders-Eat-Last-Together-Others/dp/1543614620
+      - title: Thinking, Fast and Slow
+        authors: Daniel Kahneman
+        cover: thinking-fast-and-slow.jpg
+        link: https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
+      - title: Start With Why
+        authors: Simon Sinek
+        cover: start-with-why.jpg
+        link: https://startwithwhy.com/
 
 technical:
   - year: 2018
     books:
       - title: Python For Data Analysis 2nd edition
         authors: William McKinney
-        cover: python-data-analysis
+        cover: python-data-analysis-thumb.jpg
         link: http://shop.oreilly.com/product/0636920023784.do
 
