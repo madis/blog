@@ -71,4 +71,9 @@ technical:
         authors: William McKinney
         cover: python-data-analysis-thumb.jpg
         link: http://shop.oreilly.com/product/0636920023784.do
+      - title: Manga Guide To Statistics
+        authors: Shin Takahashi
+        cover: mg_statistics_big.png
+        link: https://nostarch.com/mg_statistics.htm
+
 
