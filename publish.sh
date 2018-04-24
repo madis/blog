@@ -1,3 +1,6 @@
+echo "Making all assets readable"
+find assets -type f -exec chmod 644 {} \;
+
 echo "Building"
 jekyll build
 
