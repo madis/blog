@@ -17,7 +17,7 @@ title: Some books I have read and liked
             <div class="row">
               {% for book in yearly.books %}
                 <div class="col-md-3">
-                  <a href="{{ book.link }}">
+                  <a href="{{ book.link }}" target="_blank">
                     <li>
                       <img class="book-thumb" src="/assets/books/{{ yearly.year }}/{{ book.cover }}" alt="{{ book.title }}"/>
                       <span>{{ book.title }}</span> by
