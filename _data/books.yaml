@@ -75,5 +75,7 @@ technical:
         authors: Shin Takahashi
         cover: mg_statistics_big.png
         link: https://nostarch.com/mg_statistics.htm
-
-
+      - title: Data Science for Business
+        authors: Foster Provost, Tom Fawcett
+        cover: data-science-for-business-lrg.jpg
+        link: http://shop.oreilly.com/product/0636920028918.do
