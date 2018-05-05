@@ -1,31 +1,31 @@
 categories:
   - technical
   - business
-  - literature
+  - other
 
-literature:
-  - year: 2017
-    books:
-      - title: Mort
-        authors: Terry Pratchett
-        cover: mort1.jpg
-        link: https://www.terrypratchettbooks.com/book/mort/
-      - title: Small Gods
-        authors: Terry Pratchett
-        cover: small-gods-Web-cover.jpg
-        link: https://www.terrypratchettbooks.com/book/small-gods-a-discworld-graphic-novel/
+technical:
   - year: 2018
     books:
-      - title: Red Mars
-        authors: Kim Stanley Robinson
-        cover: red-mars-thumb.jpg
-        link: https://www.goodreads.com/book/show/77507.Red_Mars
+      - title: Python For Data Analysis 2nd edition
+        authors: William McKinney
+        cover: python-data-analysis-thumb.jpg
+        link: http://shop.oreilly.com/product/0636920023784.do
+      - title: Manga Guide To Statistics
+        authors: Shin Takahashi
+        cover: mg_statistics_big.png
+        link: https://nostarch.com/mg_statistics.htm
+      - title: Data Science for Business
+        authors: Foster Provost, Tom Fawcett
+        cover: data-science-for-business-lrg.jpg
+        link: http://shop.oreilly.com/product/0636920028918.do
+      - title: "Hands-On Machine Learning with Scikit-Learn and TensorFlow"
+        authors: Aurélien Géron
+        cover: hands-on-machine-learning-lrg.jpg
+        link: http://shop.oreilly.com/product/0636920052289.do
 
 business:
   - year: 2017
     titles:
-      - A Short History of Nearly Everything (Bill Bryson)
-      - Out of Your Mind, Essential Lectures (Alan Watts)
       - The Giants of Philosophy (Thomas C. Brickhouse, others)
       - The 10x Rule (Grant Cardone)
       - Be Obsesive or Be Average (Grant Cardone)
@@ -38,6 +38,8 @@ business:
       - The 4-Hour Work Week (Timothy Ferriss)
       - How to Win Friends and Influence People (Dale Carnegie)
       - Think and Grow Rich (Napoleon Hill)
+      - The Five Elements of Effective Thinking
+
     books:
       - title: Elon Musk
         authors: Ashlee Vance
@@ -64,18 +66,28 @@ business:
         cover: start-with-why.jpg
         link: https://startwithwhy.com/
 
-technical:
+other:
+  - year: 2017
+    books:
+      - title: Mort
+        authors: Terry Pratchett
+        cover: mort1.jpg
+        link: https://www.terrypratchettbooks.com/book/mort/
+      - title: Small Gods
+        authors: Terry Pratchett
+        cover: small-gods-Web-cover.jpg
+        link: https://www.terrypratchettbooks.com/book/small-gods-a-discworld-graphic-novel/
+      - title: A Short History of Nearly Everything (Bill Bryson)
+        authors: Bill Bryson
+        cover: bill_bryson_a_short_history.jpg
+        link: https://www.amazon.com/Short-History-Nearly-Everything/dp/076790818X
+      - title: Out of Your Mind, Essential Lectures
+        authors: Alan Watts
+        cover: out-of-your-mind.jpg
+        link: https://www.amazon.com/Out-Your-Mind-Essential-Listening/dp/1591791650
   - year: 2018
     books:
-      - title: Python For Data Analysis 2nd edition
-        authors: William McKinney
-        cover: python-data-analysis-thumb.jpg
-        link: http://shop.oreilly.com/product/0636920023784.do
-      - title: Manga Guide To Statistics
-        authors: Shin Takahashi
-        cover: mg_statistics_big.png
-        link: https://nostarch.com/mg_statistics.htm
-      - title: Data Science for Business
-        authors: Foster Provost, Tom Fawcett
-        cover: data-science-for-business-lrg.jpg
-        link: http://shop.oreilly.com/product/0636920028918.do
+      - title: Red Mars
+        authors: Kim Stanley Robinson
+        cover: red-mars-thumb.jpg
+        link: https://www.goodreads.com/book/show/77507.Red_Mars
