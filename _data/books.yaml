@@ -22,8 +22,18 @@ technical:
         authors: Aurélien Géron
         cover: hands-on-machine-learning-lrg.jpg
         link: http://shop.oreilly.com/product/0636920052289.do
+      - title: Domain-Driven Design
+        authors: Eric Evans
+        cover: domain-driven-design.jpg
+        link: https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215
 
 business:
+  - year: 2018
+    books:
+      - title: The Intelligent Investor
+        authors: Benjamin Graham
+        cover: intelligent-investor.jpg
+        link: https://www.amazon.com/Intelligent-Investor-Collins-Business-Essentials-ebook/dp/B000FC12C8
   - year: 2017
     titles:
       - The Giants of Philosophy (Thomas C. Brickhouse, others)
