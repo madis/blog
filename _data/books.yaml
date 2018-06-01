@@ -26,6 +26,10 @@ technical:
         authors: Eric Evans
         cover: domain-driven-design.jpg
         link: https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215
+      - title: Component Based Rails Applications
+        authors: Stephan Hagemann
+        cover: cbra.png
+        link: https://leanpub.com/cbra
 
 business:
   - year: 2018
