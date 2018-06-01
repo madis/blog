@@ -105,3 +105,7 @@ other:
         authors: Kim Stanley Robinson
         cover: red-mars-thumb.jpg
         link: https://www.goodreads.com/book/show/77507.Red_Mars
+      - title: Green Mars
+        authors: Kim Stanley Robinson
+        cover: green-mars-thumb.jpg
+        link: https://www.goodreads.com/book/show/77505.Green_Mars
