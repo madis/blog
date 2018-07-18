@@ -30,6 +30,10 @@ technical:
         authors: Stephan Hagemann
         cover: cbra.png
         link: https://leanpub.com/cbra
+      - title: Kotlin in Action
+        authors: Dmitry Jemerov and Svetlana Isakova
+        cover: Jemerov-Kotlin-HI.jpg
+        link: https://www.manning.com/books/kotlin-in-action
 
 business:
   - year: 2018
