@@ -34,6 +34,10 @@ technical:
         authors: Dmitry Jemerov and Svetlana Isakova
         cover: Jemerov-Kotlin-HI.jpg
         link: https://www.manning.com/books/kotlin-in-action
+      - title: Clojure for the Brave and True
+        authors: Daniel Higginbotham
+        cover: clojure-brave.png
+        link: https://www.braveclojure.com/
 
 business:
   - year: 2018
