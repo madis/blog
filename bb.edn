@@ -1,0 +1,42 @@
+{:pods {clj-kondo/clj-kondo {:version "2022.05.31"}}
+ :deps {org.babashka/cli {:mvn/version "0.3.31"}
+        io.github.borkdude/quickblog {:local/root "../quickblog"}
+        io.github.borkdude/quickdoc {:git/sha "a8068f1c8b13e09a2966804213fc41dd813de18e"}}
+ :paths ["."]
+ :tasks
+ {:init (def opts (merge (cli/parse-opts *command-line-args*)
+                         {:blog-author "Madis Nõmme"
+                          :blog-title "VLLC"
+                          :blog-description "A blog about libertarianism and decentralized, uncensorable technologies that foster it"
+                          :out-dir "public"
+                          :blog-root "https://blog.mad.is/"
+                          :discuss-link "https://github.com/madis/blog/discussions/categories/general"
+                          :page-suffix ""
+                          :twitter-handle "MadisIT"
+                          :about-link "https://mad.is"
+                          :favicon true}))
+
+  :requires ([babashka.fs :as fs]
+             [quickblog.api :as r]
+             [babashka.cli :as cli])
+
+  new {:doc "Create new blog article"
+       :task (r/new opts)}
+
+  render {:doc "Render blog"
+          :task (r/quickblog opts)}
+
+  watch  {:doc "Watch posts and templates and call render on file changes"
+          :task (r/watch opts)}
+
+  publish {:doc "Publish to blog.mad.is"
+           :depends [render]
+           :task (shell "rsync -a --delete public/ mad.is:~/www/blog.mad.is")}
+
+  clean {:doc "Remove .work and public directory"
+         :task (do (fs/delete-tree ".work")
+                   (fs/delete-tree "public"))}
+
+  quickblog {:doc "Start blogging quickly! Run `bb quickblog help` for details."
+             :requires ([quickblog.cli :as qcli])
+             :task (qcli/dispatch opts)}}}
