@@ -7,3 +7,7 @@ article.post {
 code {
   white-space: pre;
 }
+
+article > article.intro {
+  font-style: italic;
+}
